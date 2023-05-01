@@ -1,0 +1,40 @@
+<ion-tabs #tabs (ionTabsDidChange)="setSelectedTab()">
+  <!-- The dummy player stacked above the tabs -->
+  <div class="player" *ngIf="selected !== 'song'">
+    <div class="progress-bar">
+      <div class="progress" [style.width]="progress + '%'"></div>
+    </div>
+    <ion-tab-button tab="song">
+      <ion-row class="ion-no-padding player-tab">
+        <ion-col size="2" class="ion-no-padding">
+          <img src="/assets/images/albums/when-we-all-fall-asleep.jpg" />
+        </ion-col>
+        <ion-col size="8" class="ion-align-self-center">
+          <b>All the Good Girls Go to Hell</b><br />
+          <span>Billie Eilish</span>
+        </ion-col>
+        <ion-col size="2" class="ion-text-center ion-no-padding ion-align-self-center">
+          <ion-icon name="play-sharp" color="light" size="large"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-tab-button>
+  </div>
+
+  <!-- The Ionic tab bar -->
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon [name]="selected == 'home' ? 'home' : 'home-outline'"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="search">
+      <ion-icon [name]="selected == 'search' ? 'search' : 'search-outline'"></ion-icon>
+      <ion-label>Search</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="library">
+      <ion-icon [name]="selected == 'library' ? 'library' : 'library-outline'"></ion-icon>
+      <ion-label>Library</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

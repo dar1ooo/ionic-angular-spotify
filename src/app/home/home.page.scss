@@ -1,0 +1,39 @@
+ion-content {
+  --padding-top: 40px;
+}
+
+.section-header {
+  color: #fff;
+  font-family: "Spotify";
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #fff;
+  font-family: "Spotify";
+  font-size: small;
+}
+
+ion-slide {
+  display: block;
+  text-align: left;
+}
+
+ion-slides {
+  margin-bottom: 20px;
+}
+
+img {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
