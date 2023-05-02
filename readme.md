@@ -1,2 +1,1 @@
-
-![image](https://user-images.githubusercontent.com/63245314/235672395-45d6d93b-5d2c-41ea-ace2-c18baed20e6a.png)
+![iphone-multiple-screens-mockup](https://user-images.githubusercontent.com/63245314/235674679-7028eff6-acf3-42c8-b878-b1a3144da0fe.png)
