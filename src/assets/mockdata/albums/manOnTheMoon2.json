@@ -8,72 +8,88 @@
     {
       "title": "Scott Mescudi vs. the World",
       "seconds": 235,
-      "featuring": ["CeeLo Green"]
+      "featuring": ["CeeLo Green"],
+      "active": false
     },
     {
       "title": "Revofev",
-      "seconds": 183
+      "seconds": 183,
+      "active": false
     },
     {
       "title": "Don't Play This Song",
       "seconds": 223,
-      "featuring": ["Mary J. Blige"]
+      "featuring": ["Mary J. Blige"],
+      "active": false
     },
     {
       "title": "We Aite (Wake Your Mind Up)",
-      "seconds": 87
+      "seconds": 87,
+      "active": false
     },
     {
       "title": "Marijuana",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     },
     {
       "title": "Mojo So Dope",
-      "seconds": 211
+      "seconds": 211,
+      "active": false
     },
     {
       "title": "Ashin' Kusher",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     },
     {
       "title": "Erase Me",
       "seconds": 260,
-      "featuring": ["Mary J. Blige"]
+      "featuring": ["Mary J. Blige"],
+      "active": false
     },
     {
       "title": "Wild'n Cuz I'm Young",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     },
     {
       "title": "The Mood",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     },
     {
       "title": "Maniac",
       "seconds": 260,
-      "featuring": ["Cage", "St. Vincent"]
+      "featuring": ["Cage", "St. Vincent"],
+      "active": false
     },
     {
       "title": "These Worries",
       "seconds": 260,
-      "featuring": ["Mary J. Blige"]
+      "featuring": ["Mary J. Blige"],
+      "active": false
     },
     {
       "title": "The End",
       "seconds": 260,
-      "featuring": ["GLC", "Chip tha Ripper", "Nicole Wray"]
+      "featuring": ["GLC", "Chip tha Ripper", "Nicole Wray"],
+      "active": false
     },
     {
       "title": "All Along",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     },
     {
       "title": "Ghost!",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     },
     {
       "title": "Trapped in My Mind",
-      "seconds": 260
+      "seconds": 260,
+      "active": false
     }
   ]
 }

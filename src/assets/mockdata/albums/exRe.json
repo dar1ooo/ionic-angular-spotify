@@ -5,15 +5,15 @@
   "released": 2018,
   "title": "Ex:Re",
   "tracks": [
-    { "title": "Where The Time Went", "seconds": 251 },
-    { "title": "Crushing", "seconds": 248 },
-    { "title": "New York", "seconds": 320 },
-    { "title": "Romance", "seconds": 403 },
-    { "title": "The Dazzler", "seconds": 282 },
-    { "title": "Too Sad", "seconds": 328 },
-    { "title": "Liar", "seconds": 294 },
-    { "title": "I Can't Keep You", "seconds": 257 },
-    { "title": "5AM", "seconds": 204 },
-    { "title": "My Heart", "seconds": 277 }
+    { "title": "Where The Time Went", "seconds": 251, "active": false },
+    { "title": "Crushing", "seconds": 248, "active": false },
+    { "title": "New York", "seconds": 320, "active": false },
+    { "title": "Romance", "seconds": 403, "active": false },
+    { "title": "The Dazzler", "seconds": 282, "active": false },
+    { "title": "Too Sad", "seconds": 328, "active": false },
+    { "title": "Liar", "seconds": 294, "active": false },
+    { "title": "I Can't Keep You", "seconds": 257, "active": false },
+    { "title": "5AM", "seconds": 204, "active": false },
+    { "title": "My Heart", "seconds": 277, "active": false }
   ]
 }

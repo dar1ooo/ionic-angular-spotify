@@ -1,5 +1,5 @@
 ion-tab-bar {
-  --background: var(--ion-color-medium);
+  --background: rgba(0, 0, 0, 0.8);
 }
 
 ion-tab-button {
@@ -11,12 +11,12 @@ ion-tab-button {
   height: 55px;
   background: var(--ion-color-medium);
   img {
-    height: 55px;
+    height: 50px;
   }
   font-family: "Spotify";
   color: #fff;
   font-size: small;
-
+  z-index: 10;
   .progress-bar {
     height: 2px;
     width: 100%;

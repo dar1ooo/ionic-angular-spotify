@@ -14,7 +14,7 @@ export class ImageFadeDirective {
  
   @HostListener('ionScroll', ['$event']) onContentScroll($event: any) {
     const scrollTop: number = $event.detail.scrollTop;
-    let newOpacity = Math.max(100 - (scrollTop/3), 0)
+    let newOpacity = Math.max(100 - (scrollTop/2), 0)
 
     let newPadding = 15 + (scrollTop/25);
     if (newPadding > 100) {

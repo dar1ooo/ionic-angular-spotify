@@ -7,6 +7,7 @@ import seaOfCowards from './seaOfCowards.json';
 import swimming from './swimming.json';
 import whenWeAllFallAsleep from './whenWeAllFallAsleep.json';
 import wishYouWereHere from './wishYouWereHere.json';
+import dearMissLonelyHearts from './dearMissLonelyHearts.json';
 
 export default {
   'Born To Die': bornToDie,
@@ -17,5 +18,6 @@ export default {
   'Sea Of Cowards': seaOfCowards,
   Swimming: swimming,
   'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?': whenWeAllFallAsleep,
-  'Wish You Were Here': wishYouWereHere
+  'Wish You Were Here': wishYouWereHere,
+  'Dear Miss Lonelyhearts': dearMissLonelyHearts
 };

@@ -5,18 +5,18 @@
   "released": 2018,
   "title": "Swimming",
   "tracks": [
-    { "title": "Come Back to Earth", "seconds": 161 },
-    { "title": "Hurt Feelings", "seconds": 245 },
-    { "title": "What's the Use?", "seconds": 288 },
-    { "title": "Perfecto", "seconds": 215 },
-    { "title": "Self Care", "seconds": 345 },
-    { "title": "Wings", "seconds": 250 },
-    { "title": "Ladders", "seconds": 287 },
-    { "title": "Small Worlds", "seconds": 271 },
-    { "title": "Conversation Pt. 1", "seconds": 210 },
-    { "title": "Dunno", "seconds": 237 },
-    { "title": "Jet Fuel", "seconds": 345 },
-    { "title": "2009", "seconds": 347 },
-    { "title": "So It Goes", "seconds": 312 }
+    { "title": "Come Back to Earth", "seconds": 161, "active": false },
+    { "title": "Hurt Feelings", "seconds": 245, "active": false },
+    { "title": "What's the Use?", "seconds": 288, "active": false },
+    { "title": "Perfecto", "seconds": 215, "active": false },
+    { "title": "Self Care", "seconds": 345, "active": false },
+    { "title": "Wings", "seconds": 250, "active": false },
+    { "title": "Ladders", "seconds": 287, "active": false },
+    { "title": "Small Worlds", "seconds": 271, "active": false },
+    { "title": "Conversation Pt. 1", "seconds": 210, "active": false },
+    { "title": "Dunno", "seconds": 237, "active": false },
+    { "title": "Jet Fuel", "seconds": 345, "active": false },
+    { "title": "2009", "seconds": 347, "active": false },
+    { "title": "So It Goes", "seconds": 312, "active": false }
   ]
 }

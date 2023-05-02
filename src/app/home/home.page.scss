@@ -37,3 +37,27 @@ img {
     opacity: 1;
   }
 }
+
+.home-badge {
+  border-radius: 30px;
+  background-color: #535353;
+  color: white;
+}
+
+.top-right-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  color: #fff;
+  font-family: "Spotify";
+  font-weight: bold;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 18px;
+}
+
+.homescreen{
+  margin-bottom: 20vh;
+}

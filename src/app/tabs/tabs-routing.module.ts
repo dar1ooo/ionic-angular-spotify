@@ -24,7 +24,7 @@ const routes: Routes = [
         loadChildren: () => import("../settings/settings.module").then((m) => m.SettingsPageModule),
       },
       {
-        path: "song",
+        path: "song/:title",
         loadChildren: () => import("../song/song.module").then((m) => m.SongPageModule),
       },
       {

@@ -1,10 +1,7 @@
 <ion-tabs #tabs (ionTabsDidChange)="setSelectedTab()">
   <!-- The dummy player stacked above the tabs -->
   <div class="player" *ngIf="selected !== 'song'">
-    <div class="progress-bar">
-      <div class="progress" [style.width]="progress + '%'"></div>
-    </div>
-    <ion-tab-button tab="song">
+    <ion-tab-button (click)="openAlbum()">
       <ion-row class="ion-no-padding player-tab">
         <ion-col size="2" class="ion-no-padding">
           <img src="/assets/images/albums/when-we-all-fall-asleep.jpg" />
@@ -17,6 +14,9 @@
           <ion-icon name="play-sharp" color="light" size="large"></ion-icon>
         </ion-col>
       </ion-row>
+      <div class="progress-bar">
+        <div class="progress" [style.width]="progress + '%'"></div>
+      </div>
     </ion-tab-button>
   </div>
 

@@ -1,45 +1,72 @@
 ion-item {
-    --ion-item-background: transparent;
-    color: #fff;
+  --ion-item-background: transparent;
+  color: #fff;
 
-    p {
-        color: #949494;
-    }
+  p {
+    color: #949494;
+  }
 }
 
 ion-list {
-    --ion-background-color: var(--ion-color-dark);
+  --ion-background-color: var(--ion-color-dark);
 }
 
-ion-title, ion-content {
-    font-family: 'Spotify';
+ion-title,
+ion-content {
+  font-family: "Spotify";
 }
 
 .album-info {
-    color: #fff;
-    margin-left: 11px;
-    p {
-        font-weight: bold;
-    }
+  color: #fff;
+  margin-left: 10px;
+  p {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .album-info-date {
+    font-size: 10px;
+  }
 }
 
 .image-box {
-    position: fixed;
-    z-index: 0;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 5%;
+  position: fixed;
+  z-index: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
 }
 
-ion-row {
-    padding-top: 40vh;
+ion-row.main-content {
+  padding-top: 36vh;
 }
 
 ion-content {
-    --background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
+  --background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
 }
 
 .main {
-    z-index: 10;
-    background: linear-gradient(var(--custombg) 20%, var(--ion-color-dark) 30%);
+  z-index: 10;
+  background: linear-gradient(var(--custombg) 20%, var(--ion-color-dark) 30%);
+}
+
+.album-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 0px 10px;
+}
+
+.album-header-title {
+  color: white;
+  font-size: 15px;
+}
+
+.song-list {
+  margin-bottom: 15vh;
+}
+
+.acitve {
+  color: #1db954;
 }

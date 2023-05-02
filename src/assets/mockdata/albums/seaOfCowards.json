@@ -5,16 +5,16 @@
   "released": 2010,
   "title": "Sea Of Cowards",
   "tracks": [
-    { "title": "Blue Blood Blues", "seconds": 161 },
-    { "title": "Hustle and Cuss", "seconds": 245 },
-    { "title": "The Difference Between Us", "seconds": 288 },
-    { "title": "I'm Mad", "seconds": 215 },
-    { "title": "Die by the Drop", "seconds": 345 },
-    { "title": "I Can't Hear You", "seconds": 250 },
-    { "title": "Gasoline", "seconds": 287 },
-    { "title": "No Horse", "seconds": 271 },
-    { "title": "Looking at the Invisible Man", "seconds": 210 },
-    { "title": "Jawbreaker", "seconds": 237 },
-    { "title": "Old Mary", "seconds": 345 }
+    { "title": "Blue Blood Blues", "seconds": 161, "active": false },
+    { "title": "Hustle and Cuss", "seconds": 245, "active": false },
+    { "title": "The Difference Between Us", "seconds": 288, "active": false },
+    { "title": "I'm Mad", "seconds": 215, "active": false },
+    { "title": "Die by the Drop", "seconds": 345, "active": false },
+    { "title": "I Can't Hear You", "seconds": 250, "active": false },
+    { "title": "Gasoline", "seconds": 287, "active": false },
+    { "title": "No Horse", "seconds": 271, "active": false },
+    { "title": "Looking at the Invisible Man", "seconds": 210, "active": false },
+    { "title": "Jawbreaker", "seconds": 237, "active": false },
+    { "title": "Old Mary", "seconds": 345, "active": false }
   ]
 }
